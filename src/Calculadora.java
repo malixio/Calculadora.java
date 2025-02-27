@@ -14,14 +14,14 @@ public class Calculadora extends JFrame implements ActionListener {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new GridLayout(6, 2, 10, 10));
 
-        // Componentes
-        JLabel num1Label = new JLabel("Número 1:");
-        num1Field = new JTextField();
-        JLabel num2Label = new JLabel("Número 2:");
-        num2Field = new JTextField();
-        JLabel operacionLabel = new JLabel("Operación:");
-        String[] operaciones = {"Suma", "Resta", "Multiplicación", "División",
-                "Módulo", "Potencia", "Raíz Cuadrada", "Factorial"};
+      // Componentes
+      JLabel num1Label = new JLabel("Número 1:");
+      num1Field = new JTextField();
+      JLabel num2Label = new JLabel("Número 2:");
+      num2Field = new JTextField();
+      JLabel operacionLabel = new JLabel("Operación:");
+      String[] operaciones = {"Suma", "Resta", "Multiplicación", "División",
+              "Módulo", "Potencia", "Raíz Cuadrada", "Factorial"};
         operacionesCombo = new JComboBox<>(operaciones);
         JButton calcularButton = new JButton("Calcular");
         JButton limpiarButton = new JButton("Limpiar");
@@ -37,19 +37,19 @@ public class Calculadora extends JFrame implements ActionListener {
             resultadoField.setText("");
         });
 
-        // Añadir componentes a la ventana
-        add(num1Label);
-        add(num1Field);
-        add(num2Label);
-        add(num2Field);
-        add(operacionLabel);
-        add(operacionesCombo);
-        add(calcularButton);
-        add(limpiarButton);
-        add(resultadoLabel);
-        add(resultadoField);
+      // Añadir componentes a la ventana
+      add(num1Label);
+      add(num1Field);
+      add(num2Label);
+      add(num2Field);
+      add(operacionLabel);
+      add(operacionesCombo);
+      add(calcularButton);
+      add(limpiarButton);
+      add(resultadoLabel);
+      add(resultadoField);
 
-        setVisible(true);
+      setVisible(true);
     }
 
     @Override
