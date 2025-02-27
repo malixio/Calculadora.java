@@ -130,4 +130,6 @@ Alarcon Pacalagua Nelcy Jasbleidy
 Alarcon Sergio Mauricio
 Salazar Maryuri
 
-Evidencia del Uso de Ramas en Git
+Uso de Ramas en Git
+Master
+Develope
