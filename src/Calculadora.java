@@ -7,7 +7,7 @@ public class Calculadora extends JFrame implements ActionListener {
     private JTextField num1Field, num2Field, resultadoField;
     private JComboBox<String> operacionesCombo;
 
-    public Calculadora() {
+  public Calculadora(){
         // Configuración de la ventana
         setTitle("Calculadora");
         setSize(400, 300);
