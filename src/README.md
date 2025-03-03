@@ -127,8 +127,8 @@ double resultado = celsiusAFahrenheit(30);  // Devuelve 86.0
 Integrentes del Equipo
 
 Alarcon Pacalagua Nelcy Jasbleidy
-Alarcon Sergio Mauricio
-Salazar Maryuri
+Alarcon Pinilla Sergio Mauricio
+Salazar Espinel Maryuri Yinnet 
 
 Uso de Ramas en Git
 
